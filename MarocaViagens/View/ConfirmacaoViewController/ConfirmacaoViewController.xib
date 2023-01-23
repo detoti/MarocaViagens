@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ConfirmacaoViewController" customModule="MarocaViagens" customModuleProvider="target">
+            <connections>
+                <outlet property="diariaViagemLabel" destination="PY3-dE-WpU" id="RbZ-ym-yse"/>
+                <outlet property="subtituloViagemLabel" destination="1bh-Cm-mfB" id="SUN-75-ech"/>
+                <outlet property="tituloViagemLabel" destination="M3T-tE-2bD" id="mbT-jA-biq"/>
+                <outlet property="viagemImage" destination="75P-dg-1Qh" id="tDM-JN-HVM"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hsx-H6-FVQ">
+                    <rect key="frame" x="0.0" y="-59" width="393" height="831"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NaB-M3-lai" userLabel="Image Viagem View">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="229.33333333333334"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cancun-internacional" translatesAutoresizingMaskIntoConstraints="NO" id="75P-dg-1Qh">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="229.33333333333334"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="75P-dg-1Qh" secondAttribute="bottom" id="CLu-cv-cRW"/>
+                                <constraint firstItem="75P-dg-1Qh" firstAttribute="leading" secondItem="NaB-M3-lai" secondAttribute="leading" id="PoH-i3-3c5"/>
+                                <constraint firstItem="75P-dg-1Qh" firstAttribute="top" secondItem="NaB-M3-lai" secondAttribute="top" id="nne-Cr-xCy"/>
+                                <constraint firstAttribute="trailing" secondItem="75P-dg-1Qh" secondAttribute="trailing" id="reI-NK-wj8"/>
+                            </constraints>
+                        </view>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3s6-8Q-HvG">
+                            <rect key="frame" x="16" y="229.33333333333334" width="361" height="268.33333333333326"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CtI-VF-UlX" userLabel="Espaçamento">
+                                    <rect key="frame" x="0.0" y="0.0" width="361" height="10"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="10" id="aeE-8D-m1U"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2dH-GM-zEE" userLabel="Divisor">
+                                    <rect key="frame" x="0.0" y="10" width="361" height="1"/>
+                                    <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="FYx-Lq-Ltt"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mgp-TN-OsJ" userLabel="Espaçamento">
+                                    <rect key="frame" x="0.0" y="11" width="361" height="10"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="10" id="Czo-P6-M6T"/>
+                                    </constraints>
+                                </view>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PARABÉNS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v9O-lh-76k">
+                                    <rect key="frame" x="0.0" y="21" width="361" height="42"/>
+                                    <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="30"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Compra realizada com sucesso." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mPT-wu-e9q">
+                                    <rect key="frame" x="0.0" y="63.000000000000007" width="361" height="25.333333333333336"/>
+                                    <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Regular" family="Kohinoor Devanagari" pointSize="18"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cNP-5U-VG4" userLabel="Espaçamento">
+                                    <rect key="frame" x="0.0" y="88.333333333333343" width="361" height="10"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="10" id="c1i-hI-lSe"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hVJ-yn-lQH" userLabel="Divisor">
+                                    <rect key="frame" x="0.0" y="98.333333333333343" width="361" height="1"/>
+                                    <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="v4q-Oc-mXo"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EqZ-Hr-rbD" userLabel="Espaçamento">
+                                    <rect key="frame" x="0.0" y="99.333333333333343" width="361" height="10"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="10" id="5Bk-vh-Q2e"/>
+                                    </constraints>
+                                </view>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Resumo da sua compra:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kw9-5U-uzs">
+                                    <rect key="frame" x="0.0" y="109.33333333333334" width="361" height="24"/>
+                                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Regular" family="Kohinoor Devanagari" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I1k-gX-1Ak" userLabel="Espaçamento">
+                                    <rect key="frame" x="0.0" y="133.33333333333334" width="361" height="10"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="10" id="KdA-ja-g4v"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G7x-xh-68O" userLabel="Divisor">
+                                    <rect key="frame" x="0.0" y="143.33333333333334" width="361" height="1"/>
+                                    <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="1ol-UU-Mc2"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8qd-ci-cFf" userLabel="Espaçamento">
+                                    <rect key="frame" x="0.0" y="144.33333333333334" width="361" height="10"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="10" id="V8f-1h-0cd"/>
+                                    </constraints>
+                                </view>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pacote de Viagem para Cancun All Inclusive" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M3T-tE-2bD">
+                                    <rect key="frame" x="0.0" y="154.33333333333334" width="361" height="56"/>
+                                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Regular" family="Kohinoor Devanagari" pointSize="20"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9rY-OC-BTI" userLabel="Espaçamento">
+                                    <rect key="frame" x="0.0" y="210.33333333333334" width="361" height="10"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="10" id="gKR-Oa-RTV"/>
+                                    </constraints>
+                                </view>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aéreo + Hospedagem" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1bh-Cm-mfB">
+                                    <rect key="frame" x="0.0" y="220.33333333333334" width="361" height="24"/>
+                                    <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 ou 7 diárias" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PY3-dE-WpU">
+                                    <rect key="frame" x="0.0" y="244.33333333333337" width="361" height="24"/>
+                                    <fontDescription key="fontDescription" name="KohinoorDevanagari-Regular" family="Kohinoor Devanagari" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="NaB-M3-lai" firstAttribute="height" secondItem="hsx-H6-FVQ" secondAttribute="height" multiplier="0.275822" id="5rI-fi-r1U"/>
+                        <constraint firstAttribute="bottom" secondItem="3s6-8Q-HvG" secondAttribute="bottom" id="LHn-gy-VNy"/>
+                        <constraint firstItem="NaB-M3-lai" firstAttribute="width" secondItem="hsx-H6-FVQ" secondAttribute="width" id="Rfp-hi-TTD"/>
+                        <constraint firstItem="NaB-M3-lai" firstAttribute="leading" secondItem="hsx-H6-FVQ" secondAttribute="leading" id="Z6W-Nz-QgF"/>
+                        <constraint firstItem="NaB-M3-lai" firstAttribute="top" secondItem="hsx-H6-FVQ" secondAttribute="top" id="bGO-3f-h24"/>
+                        <constraint firstItem="3s6-8Q-HvG" firstAttribute="leading" secondItem="hsx-H6-FVQ" secondAttribute="leading" constant="16" id="bR4-i2-lV8"/>
+                        <constraint firstAttribute="trailing" secondItem="3s6-8Q-HvG" secondAttribute="trailing" constant="16" id="bmU-Xn-o1f"/>
+                        <constraint firstAttribute="trailing" secondItem="NaB-M3-lai" secondAttribute="trailing" id="nYo-b6-Jhb"/>
+                        <constraint firstItem="3s6-8Q-HvG" firstAttribute="top" secondItem="NaB-M3-lai" secondAttribute="bottom" id="zhQ-Bw-GZ1"/>
+                    </constraints>
+                </scrollView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x07-a8-LUv">
+                    <rect key="frame" x="0.0" y="772" width="393" height="80"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="05g-GE-Al8">
+                            <rect key="frame" x="40" y="22.666666666666629" width="313" height="35"/>
+                            <color key="backgroundColor" systemColor="systemMintColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="Ztr-Bf-Hbw"/>
+                            </constraints>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Voltar para home">
+                                <fontDescription key="titleFontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="15"/>
+                            </buttonConfiguration>
+                            <connections>
+                                <action selector="backToHome:" destination="-1" eventType="touchUpInside" id="FEs-KF-kwB"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="05g-GE-Al8" firstAttribute="centerX" secondItem="x07-a8-LUv" secondAttribute="centerX" id="7FR-Jp-dxd"/>
+                        <constraint firstItem="05g-GE-Al8" firstAttribute="leading" secondItem="x07-a8-LUv" secondAttribute="leading" constant="40" id="YC6-a9-Sf7"/>
+                        <constraint firstAttribute="trailing" secondItem="05g-GE-Al8" secondAttribute="trailing" constant="40" id="je2-e2-7m8"/>
+                        <constraint firstItem="05g-GE-Al8" firstAttribute="centerY" secondItem="x07-a8-LUv" secondAttribute="centerY" id="lpZ-fg-peo"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="hsx-H6-FVQ" secondAttribute="bottom" constant="80" id="6yZ-b8-x1g"/>
+                <constraint firstItem="hsx-H6-FVQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="BAW-Go-bQh"/>
+                <constraint firstAttribute="top" secondItem="hsx-H6-FVQ" secondAttribute="top" constant="59" id="Hrf-nM-2hB"/>
+                <constraint firstItem="x07-a8-LUv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Ifi-Yb-U49"/>
+                <constraint firstItem="x07-a8-LUv" firstAttribute="top" secondItem="hsx-H6-FVQ" secondAttribute="bottom" id="Jtn-9z-dGQ"/>
+                <constraint firstItem="hsx-H6-FVQ" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" id="POL-3H-eIE"/>
+                <constraint firstAttribute="top" secondItem="hsx-H6-FVQ" secondAttribute="top" constant="59" id="S5S-og-SxL"/>
+                <constraint firstItem="hsx-H6-FVQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="dxz-sw-ccA"/>
+                <constraint firstItem="x07-a8-LUv" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" id="gA0-4X-Ghy"/>
+                <constraint firstAttribute="bottom" secondItem="x07-a8-LUv" secondAttribute="bottom" id="gco-Kc-qtG"/>
+            </constraints>
+            <point key="canvasLocation" x="51.145038167938928" y="-11.267605633802818"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cancun-internacional" width="1280" height="778"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -26,14 +26,11 @@ class ViewController: UIViewController {
     }
     
     func irParaDetalhe(_ viagem: Viagem?) {
-        if let viagemSelecionada = viagem {
+        guard let viagemSelecionada = viagem else { return }
             let detalheController = DetalheViewController.instanciar(viagemSelecionada)
             navigationController?.pushViewController(detalheController, animated: true)
         }
-        
     }
-    
-}
     
     extension ViewController: UITableViewDataSource {
         

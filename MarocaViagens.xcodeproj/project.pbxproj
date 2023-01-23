@@ -10,6 +10,10 @@
 		5068F49B29677B0800E195DA /* OfertaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5068F49929677B0800E195DA /* OfertaTableViewCell.swift */; };
 		5068F49C29677B0800E195DA /* OfertaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5068F49A29677B0800E195DA /* OfertaTableViewCell.xib */; };
 		5068F49E29677CEC00E195DA /* ViagemOfertaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5068F49D29677CEC00E195DA /* ViagemOfertaViewModel.swift */; };
+		50C1F6C8297876E200609C86 /* FinalizaCompraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C1F6C6297876E200609C86 /* FinalizaCompraViewController.swift */; };
+		50C1F6C9297876E200609C86 /* FinalizaCompraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50C1F6C7297876E200609C86 /* FinalizaCompraViewController.xib */; };
+		50C1F6CC297876F800609C86 /* ConfirmacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C1F6CA297876F800609C86 /* ConfirmacaoViewController.swift */; };
+		50C1F6CD297876F800609C86 /* ConfirmacaoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50C1F6CB297876F800609C86 /* ConfirmacaoViewController.xib */; };
 		50D19C912959FC9E00D6492D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D19C902959FC9E00D6492D /* AppDelegate.swift */; };
 		50D19C932959FC9E00D6492D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D19C922959FC9E00D6492D /* SceneDelegate.swift */; };
 		50D19C952959FC9E00D6492D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D19C942959FC9E00D6492D /* ViewController.swift */; };
@@ -35,6 +39,10 @@
 		5068F49929677B0800E195DA /* OfertaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfertaTableViewCell.swift; sourceTree = "<group>"; };
 		5068F49A29677B0800E195DA /* OfertaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OfertaTableViewCell.xib; sourceTree = "<group>"; };
 		5068F49D29677CEC00E195DA /* ViagemOfertaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemOfertaViewModel.swift; sourceTree = "<group>"; };
+		50C1F6C6297876E200609C86 /* FinalizaCompraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalizaCompraViewController.swift; sourceTree = "<group>"; };
+		50C1F6C7297876E200609C86 /* FinalizaCompraViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FinalizaCompraViewController.xib; sourceTree = "<group>"; };
+		50C1F6CA297876F800609C86 /* ConfirmacaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmacaoViewController.swift; sourceTree = "<group>"; };
+		50C1F6CB297876F800609C86 /* ConfirmacaoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfirmacaoViewController.xib; sourceTree = "<group>"; };
 		50D19C8D2959FC9E00D6492D /* MarocaViagens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarocaViagens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D19C902959FC9E00D6492D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50D19C922959FC9E00D6492D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +93,24 @@
 				5068F49A29677B0800E195DA /* OfertaTableViewCell.xib */,
 			);
 			path = Oferta;
+			sourceTree = "<group>";
+		};
+		50C1F6C02978703800609C86 /* FinalizaCompra */ = {
+			isa = PBXGroup;
+			children = (
+				50C1F6C6297876E200609C86 /* FinalizaCompraViewController.swift */,
+				50C1F6C7297876E200609C86 /* FinalizaCompraViewController.xib */,
+			);
+			path = FinalizaCompra;
+			sourceTree = "<group>";
+		};
+		50C1F6C52978769500609C86 /* ConfirmacaoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				50C1F6CA297876F800609C86 /* ConfirmacaoViewController.swift */,
+				50C1F6CB297876F800609C86 /* ConfirmacaoViewController.xib */,
+			);
+			path = ConfirmacaoViewController;
 			sourceTree = "<group>";
 		};
 		50D19C842959FC9E00D6492D = {
@@ -152,6 +178,8 @@
 			children = (
 				50D19C942959FC9E00D6492D /* ViewController.swift */,
 				50D19C962959FC9E00D6492D /* Main.storyboard */,
+				50C1F6C52978769500609C86 /* ConfirmacaoViewController */,
+				50C1F6C02978703800609C86 /* FinalizaCompra */,
 				50D3F893296F21BA00BF704D /* DetalheViewController */,
 				50E74EF5296611920003212E /* Header */,
 				50E74EF7296627760003212E /* Cells */,
@@ -262,9 +290,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				50D3F897296F21EC00BF704D /* DetalheViewController.xib in Resources */,
+				50C1F6C9297876E200609C86 /* FinalizaCompraViewController.xib in Resources */,
 				50D19C9D2959FC9F00D6492D /* LaunchScreen.storyboard in Resources */,
 				50E74EFE296632A90003212E /* server-response.json in Resources */,
 				50D19CA5295A2E9F00D6492D /* HomeTableViewHeader.xib in Resources */,
+				50C1F6CD297876F800609C86 /* ConfirmacaoViewController.xib in Resources */,
 				50D19C9A2959FC9F00D6492D /* Assets.xcassets in Resources */,
 				50D19C982959FC9E00D6492D /* Main.storyboard in Resources */,
 				50E74EFB296627BC0003212E /* ViagemTableViewCell.xib in Resources */,
@@ -286,9 +316,11 @@
 				5068F49E29677CEC00E195DA /* ViagemOfertaViewModel.swift in Sources */,
 				5068F49B29677B0800E195DA /* OfertaTableViewCell.swift in Sources */,
 				50E74F02296632E90003212E /* TiposDeViagens.swift in Sources */,
+				50C1F6C8297876E200609C86 /* FinalizaCompraViewController.swift in Sources */,
 				50D19CA7295A318E00D6492D /* HomeTableViewHeader.swift in Sources */,
 				50E74F00296632D90003212E /* DecodableData.swift in Sources */,
 				50D19C912959FC9E00D6492D /* AppDelegate.swift in Sources */,
+				50C1F6CC297876F800609C86 /* ConfirmacaoViewController.swift in Sources */,
 				50D19C932959FC9E00D6492D /* SceneDelegate.swift in Sources */,
 				50E74F09296633F70003212E /* ViagemViewModel.swift in Sources */,
 				50D3F896296F21EC00BF704D /* DetalheViewController.swift in Sources */,

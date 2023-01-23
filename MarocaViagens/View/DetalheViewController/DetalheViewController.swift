@@ -25,7 +25,7 @@ class DetalheViewController: UIViewController {
     
     var viagem: Viagem?
     
-    // MARK: - View Life Cycle
+    // MARK: - View life cycle
     
     class func instanciar(_ viagem: Viagem) -> DetalheViewController {
         let detalhesViewController = DetalheViewController(nibName: String(describing: self), bundle: nil)
@@ -33,6 +33,7 @@ class DetalheViewController: UIViewController {
         
         return detalhesViewController
     }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         configuraView()
@@ -43,7 +44,7 @@ class DetalheViewController: UIViewController {
         tituloViagemLabel.text = viagem?.titulo
         subtituloViagemLabel.text = viagem?.subtitulo
         precoViagemLabel.text = "R$ \(viagem?.preco ?? 0)"
-        
+
         let atributoString: NSMutableAttributedString = NSMutableAttributedString(string: "R$ \(viagem?.precoSemDesconto ?? 0)")
         atributoString.addAttribute(NSAttributedString.Key.strikethroughStyle, value: 1, range: NSMakeRange(0, atributoString.length))
         precoSemDescontoLabel.attributedText = atributoString
@@ -52,7 +53,6 @@ class DetalheViewController: UIViewController {
             let diarias = numeroDeDias == 1 ? "Diária" : "Diárias"
             let hospedes = numeroDeHospedes == 1 ? "Pessoa" : "Pessoas"
             diariaViagemLabel.text = "\(numeroDeDias) \(diarias) - \(numeroDeHospedes) \(hospedes)"
-            
         }
     }
         // MARK: - Actions
@@ -60,4 +60,12 @@ class DetalheViewController: UIViewController {
         @IBAction func botaoVoltar(_ sender: UIButton) {
             navigationController?.popViewController(animated: true)
         }
+    
+    @IBAction func botaoComprar(_ sender: UIButton) {
+        guard let viagemSelecionada = viagem else { return }
+            let finalizaCompra = FinalizaCompraViewController.instanciarFinaliza(viagemSelecionada)
+            navigationController?.pushViewController(finalizaCompra, animated: true)
+        }
     }
+    
+
