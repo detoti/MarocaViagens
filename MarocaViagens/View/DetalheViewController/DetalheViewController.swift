@@ -63,8 +63,8 @@ class DetalheViewController: UIViewController {
     
     @IBAction func botaoComprar(_ sender: UIButton) {
         guard let viagemSelecionada = viagem else { return }
-            let finalizaCompra = FinalizaCompraViewController.instanciarFinaliza(viagemSelecionada)
-            navigationController?.pushViewController(finalizaCompra, animated: true)
+            let cadastroCompra = CadastroViewController.instanciarCadastro(viagemSelecionada)
+            navigationController?.pushViewController(cadastroCompra, animated: true)
         }
     }
     

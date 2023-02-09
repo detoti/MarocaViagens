@@ -15,7 +15,7 @@ class ConfirmacaoViewController: UIViewController {
     
     // MARK: - View Life Cycle
 
-    class func instanciarCompra(_ viagem: Viagem) -> ConfirmacaoViewController {
+    class func instanciarConfirmacao(_ viagem: Viagem) -> ConfirmacaoViewController {
         let confirmaViewController = ConfirmacaoViewController(nibName: String(describing: self), bundle: nil)
         confirmaViewController.viagem = viagem
         

@@ -9,8 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    //MARK: - IBOutlets
     
     @IBOutlet weak var viagensTableview: UITableView!
+    
+    
+    //MARK: - View Life Cycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,6 +36,9 @@ class ViewController: UIViewController {
         }
     }
     
+
+    //MARK: - Metodos
+
     extension ViewController: UITableViewDataSource {
         
         func numberOfSections(in tableView: UITableView) -> Int {

@@ -10,8 +10,11 @@
 		5068F49B29677B0800E195DA /* OfertaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5068F49929677B0800E195DA /* OfertaTableViewCell.swift */; };
 		5068F49C29677B0800E195DA /* OfertaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5068F49A29677B0800E195DA /* OfertaTableViewCell.xib */; };
 		5068F49E29677CEC00E195DA /* ViagemOfertaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5068F49D29677CEC00E195DA /* ViagemOfertaViewModel.swift */; };
-		50C1F6C8297876E200609C86 /* FinalizaCompraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C1F6C6297876E200609C86 /* FinalizaCompraViewController.swift */; };
-		50C1F6C9297876E200609C86 /* FinalizaCompraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50C1F6C7297876E200609C86 /* FinalizaCompraViewController.xib */; };
+		50AA2EEA298BEE0400DA3060 /* PagamentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AA2EE8298BEE0400DA3060 /* PagamentoViewController.swift */; };
+		50AA2EEB298BEE0400DA3060 /* PagamentoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50AA2EE9298BEE0400DA3060 /* PagamentoViewController.xib */; };
+		50AA2EF2298BF02E00DA3060 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AA2EF0298BF02E00DA3060 /* CadastroViewController.swift */; };
+		50AA2EF3298BF02E00DA3060 /* CadastroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50AA2EF1298BF02E00DA3060 /* CadastroViewController.xib */; };
+		50BE740C298011FC006ED542 /* Validador.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BE740B298011FC006ED542 /* Validador.swift */; };
 		50C1F6CC297876F800609C86 /* ConfirmacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C1F6CA297876F800609C86 /* ConfirmacaoViewController.swift */; };
 		50C1F6CD297876F800609C86 /* ConfirmacaoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50C1F6CB297876F800609C86 /* ConfirmacaoViewController.xib */; };
 		50D19C912959FC9E00D6492D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D19C902959FC9E00D6492D /* AppDelegate.swift */; };
@@ -33,14 +36,19 @@
 		50E74F07296633260003212E /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E74F06296633260003212E /* UIView+Extension.swift */; };
 		50E74F09296633F70003212E /* ViagemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E74F08296633F70003212E /* ViagemViewModel.swift */; };
 		50E74F0B296638420003212E /* ViagemDestaqueViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E74F0A296638420003212E /* ViagemDestaqueViewModel.swift */; };
+		F2AD2B2C2F27B3A87EBADA83 /* Pods_MarocaViagens.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DFF94AA92E9D17F36E907A /* Pods_MarocaViagens.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47DFF94AA92E9D17F36E907A /* Pods_MarocaViagens.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarocaViagens.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5068F49929677B0800E195DA /* OfertaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfertaTableViewCell.swift; sourceTree = "<group>"; };
 		5068F49A29677B0800E195DA /* OfertaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OfertaTableViewCell.xib; sourceTree = "<group>"; };
 		5068F49D29677CEC00E195DA /* ViagemOfertaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemOfertaViewModel.swift; sourceTree = "<group>"; };
-		50C1F6C6297876E200609C86 /* FinalizaCompraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalizaCompraViewController.swift; sourceTree = "<group>"; };
-		50C1F6C7297876E200609C86 /* FinalizaCompraViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FinalizaCompraViewController.xib; sourceTree = "<group>"; };
+		50AA2EE8298BEE0400DA3060 /* PagamentoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagamentoViewController.swift; sourceTree = "<group>"; };
+		50AA2EE9298BEE0400DA3060 /* PagamentoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PagamentoViewController.xib; sourceTree = "<group>"; };
+		50AA2EF0298BF02E00DA3060 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		50AA2EF1298BF02E00DA3060 /* CadastroViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CadastroViewController.xib; sourceTree = "<group>"; };
+		50BE740B298011FC006ED542 /* Validador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validador.swift; sourceTree = "<group>"; };
 		50C1F6CA297876F800609C86 /* ConfirmacaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmacaoViewController.swift; sourceTree = "<group>"; };
 		50C1F6CB297876F800609C86 /* ConfirmacaoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfirmacaoViewController.xib; sourceTree = "<group>"; };
 		50D19C8D2959FC9E00D6492D /* MarocaViagens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarocaViagens.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +72,8 @@
 		50E74F06296633260003212E /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "../../../../../../Downloads/Arquivos Swift/arquivos/UIView+Extension.swift"; sourceTree = "<group>"; };
 		50E74F08296633F70003212E /* ViagemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemViewModel.swift; sourceTree = "<group>"; };
 		50E74F0A296638420003212E /* ViagemDestaqueViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemDestaqueViewModel.swift; sourceTree = "<group>"; };
+		7ABA84A55CAAC07E8D7885BA /* Pods-MarocaViagens.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarocaViagens.release.xcconfig"; path = "Target Support Files/Pods-MarocaViagens/Pods-MarocaViagens.release.xcconfig"; sourceTree = "<group>"; };
+		EBCCF4CC60DA99A347C469CE /* Pods-MarocaViagens.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarocaViagens.debug.xcconfig"; path = "Target Support Files/Pods-MarocaViagens/Pods-MarocaViagens.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2AD2B2C2F27B3A87EBADA83 /* Pods_MarocaViagens.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,13 +106,30 @@
 			path = Oferta;
 			sourceTree = "<group>";
 		};
-		50C1F6C02978703800609C86 /* FinalizaCompra */ = {
+		50AA2EE6298BED9C00DA3060 /* CadastroViewController */ = {
 			isa = PBXGroup;
 			children = (
-				50C1F6C6297876E200609C86 /* FinalizaCompraViewController.swift */,
-				50C1F6C7297876E200609C86 /* FinalizaCompraViewController.xib */,
+				50AA2EF0298BF02E00DA3060 /* CadastroViewController.swift */,
+				50AA2EF1298BF02E00DA3060 /* CadastroViewController.xib */,
 			);
-			path = FinalizaCompra;
+			path = CadastroViewController;
+			sourceTree = "<group>";
+		};
+		50AA2EE7298BEDB100DA3060 /* PagamentoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				50AA2EE8298BEE0400DA3060 /* PagamentoViewController.swift */,
+				50AA2EE9298BEE0400DA3060 /* PagamentoViewController.xib */,
+			);
+			path = PagamentoViewController;
+			sourceTree = "<group>";
+		};
+		50BE740D29802686006ED542 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				50D19C9B2959FC9F00D6492D /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
 			sourceTree = "<group>";
 		};
 		50C1F6C52978769500609C86 /* ConfirmacaoViewController */ = {
@@ -118,6 +146,8 @@
 			children = (
 				50D19C8F2959FC9E00D6492D /* MarocaViagens */,
 				50D19C8E2959FC9E00D6492D /* Products */,
+				9A1175167202DDDD446980B8 /* Pods */,
+				A9C92BB4E955A99DAFBF5912 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,7 +169,6 @@
 				50E74F052966330E0003212E /* Extensions */,
 				50D19C992959FC9F00D6492D /* Assets.xcassets */,
 				50E74EFC296632800003212E /* Mock */,
-				50D19C9B2959FC9F00D6492D /* LaunchScreen.storyboard */,
 				50D19C9E2959FC9F00D6492D /* Info.plist */,
 			);
 			path = MarocaViagens;
@@ -169,6 +198,7 @@
 				50E74F03296632F90003212E /* Viagem.swift */,
 				50E74EFF296632D90003212E /* DecodableData.swift */,
 				50E74F01296632E90003212E /* TiposDeViagens.swift */,
+				50BE740B298011FC006ED542 /* Validador.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -178,8 +208,10 @@
 			children = (
 				50D19C942959FC9E00D6492D /* ViewController.swift */,
 				50D19C962959FC9E00D6492D /* Main.storyboard */,
+				50AA2EE7298BEDB100DA3060 /* PagamentoViewController */,
+				50AA2EE6298BED9C00DA3060 /* CadastroViewController */,
+				50BE740D29802686006ED542 /* LaunchScreen */,
 				50C1F6C52978769500609C86 /* ConfirmacaoViewController */,
-				50C1F6C02978703800609C86 /* FinalizaCompra */,
 				50D3F893296F21BA00BF704D /* DetalheViewController */,
 				50E74EF5296611920003212E /* Header */,
 				50E74EF7296627760003212E /* Cells */,
@@ -231,6 +263,24 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		9A1175167202DDDD446980B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCF4CC60DA99A347C469CE /* Pods-MarocaViagens.debug.xcconfig */,
+				7ABA84A55CAAC07E8D7885BA /* Pods-MarocaViagens.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A9C92BB4E955A99DAFBF5912 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47DFF94AA92E9D17F36E907A /* Pods_MarocaViagens.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -238,9 +288,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50D19CA12959FC9F00D6492D /* Build configuration list for PBXNativeTarget "MarocaViagens" */;
 			buildPhases = (
+				665F0159F0E85DBE9AC6F630 /* [CP] Check Pods Manifest.lock */,
 				50D19C892959FC9E00D6492D /* Sources */,
 				50D19C8A2959FC9E00D6492D /* Frameworks */,
 				50D19C8B2959FC9E00D6492D /* Resources */,
+				A659F3DA18204ADCBCD7705C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -290,12 +342,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				50D3F897296F21EC00BF704D /* DetalheViewController.xib in Resources */,
-				50C1F6C9297876E200609C86 /* FinalizaCompraViewController.xib in Resources */,
 				50D19C9D2959FC9F00D6492D /* LaunchScreen.storyboard in Resources */,
 				50E74EFE296632A90003212E /* server-response.json in Resources */,
 				50D19CA5295A2E9F00D6492D /* HomeTableViewHeader.xib in Resources */,
 				50C1F6CD297876F800609C86 /* ConfirmacaoViewController.xib in Resources */,
+				50AA2EEB298BEE0400DA3060 /* PagamentoViewController.xib in Resources */,
 				50D19C9A2959FC9F00D6492D /* Assets.xcassets in Resources */,
+				50AA2EF3298BF02E00DA3060 /* CadastroViewController.xib in Resources */,
 				50D19C982959FC9E00D6492D /* Main.storyboard in Resources */,
 				50E74EFB296627BC0003212E /* ViagemTableViewCell.xib in Resources */,
 				5068F49C29677B0800E195DA /* OfertaTableViewCell.xib in Resources */,
@@ -304,21 +357,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		665F0159F0E85DBE9AC6F630 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarocaViagens-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A659F3DA18204ADCBCD7705C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarocaViagens/Pods-MarocaViagens-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarocaViagens/Pods-MarocaViagens-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MarocaViagens/Pods-MarocaViagens-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		50D19C892959FC9E00D6492D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				50E74F04296632F90003212E /* Viagem.swift in Sources */,
+				50AA2EF2298BF02E00DA3060 /* CadastroViewController.swift in Sources */,
 				50D19C952959FC9E00D6492D /* ViewController.swift in Sources */,
 				50E74EFA296627BC0003212E /* ViagemTableViewCell.swift in Sources */,
 				50E74F07296633260003212E /* UIView+Extension.swift in Sources */,
+				50BE740C298011FC006ED542 /* Validador.swift in Sources */,
 				5068F49E29677CEC00E195DA /* ViagemOfertaViewModel.swift in Sources */,
 				5068F49B29677B0800E195DA /* OfertaTableViewCell.swift in Sources */,
 				50E74F02296632E90003212E /* TiposDeViagens.swift in Sources */,
-				50C1F6C8297876E200609C86 /* FinalizaCompraViewController.swift in Sources */,
 				50D19CA7295A318E00D6492D /* HomeTableViewHeader.swift in Sources */,
 				50E74F00296632D90003212E /* DecodableData.swift in Sources */,
+				50AA2EEA298BEE0400DA3060 /* PagamentoViewController.swift in Sources */,
 				50D19C912959FC9E00D6492D /* AppDelegate.swift in Sources */,
 				50C1F6CC297876F800609C86 /* ConfirmacaoViewController.swift in Sources */,
 				50D19C932959FC9E00D6492D /* SceneDelegate.swift in Sources */,
@@ -466,6 +563,7 @@
 		};
 		50D19CA22959FC9F00D6492D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBCCF4CC60DA99A347C469CE /* Pods-MarocaViagens.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -494,6 +592,7 @@
 		};
 		50D19CA32959FC9F00D6492D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ABA84A55CAAC07E8D7885BA /* Pods-MarocaViagens.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
