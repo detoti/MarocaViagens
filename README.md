@@ -1,4 +1,4 @@
-# MarocaViagens - 2.0
+# MarocaViagens
 
 Depois de estudado autolayout e constraints no app Maroca Viagens, decidi que era hora de implementar novas features e funções no app.
 
