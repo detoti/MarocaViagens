@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5068F49B29677B0800E195DA /* OfertaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5068F49929677B0800E195DA /* OfertaTableViewCell.swift */; };
+		5068F49C29677B0800E195DA /* OfertaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5068F49A29677B0800E195DA /* OfertaTableViewCell.xib */; };
+		5068F49E29677CEC00E195DA /* ViagemOfertaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5068F49D29677CEC00E195DA /* ViagemOfertaViewModel.swift */; };
+		50972028299C1A1B008C704C /* Localizacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50972027299C1A1B008C704C /* Localizacao.swift */; };
+		5097202A299C1CAC008C704C /* LocalizacaoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50972029299C1CAC008C704C /* LocalizacaoAPI.swift */; };
+		50AA2EEA298BEE0400DA3060 /* PagamentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AA2EE8298BEE0400DA3060 /* PagamentoViewController.swift */; };
+		50AA2EEB298BEE0400DA3060 /* PagamentoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50AA2EE9298BEE0400DA3060 /* PagamentoViewController.xib */; };
+		50AA2EF2298BF02E00DA3060 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AA2EF0298BF02E00DA3060 /* CadastroViewController.swift */; };
+		50AA2EF3298BF02E00DA3060 /* CadastroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50AA2EF1298BF02E00DA3060 /* CadastroViewController.xib */; };
+		50BE740C298011FC006ED542 /* Validador.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BE740B298011FC006ED542 /* Validador.swift */; };
+		50C1F6CC297876F800609C86 /* ConfirmacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C1F6CA297876F800609C86 /* ConfirmacaoViewController.swift */; };
+		50C1F6CD297876F800609C86 /* ConfirmacaoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50C1F6CB297876F800609C86 /* ConfirmacaoViewController.xib */; };
+		50CBD64E29A7AAD9003FD117 /* ValidadorCompra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CBD64D29A7AAD9003FD117 /* ValidadorCompra.swift */; };
+		50CBD65129A7C22C003FD117 /* PickerViewMes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CBD65029A7C22C003FD117 /* PickerViewMes.swift */; };
+		50CBD65329A7F820003FD117 /* PickerViewAno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CBD65229A7F820003FD117 /* PickerViewAno.swift */; };
+		50D19C912959FC9E00D6492D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D19C902959FC9E00D6492D /* AppDelegate.swift */; };
+		50D19C932959FC9E00D6492D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D19C922959FC9E00D6492D /* SceneDelegate.swift */; };
+		50D19C952959FC9E00D6492D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D19C942959FC9E00D6492D /* ViewController.swift */; };
+		50D19C982959FC9E00D6492D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D19C962959FC9E00D6492D /* Main.storyboard */; };
+		50D19C9A2959FC9F00D6492D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D19C992959FC9F00D6492D /* Assets.xcassets */; };
+		50D19C9D2959FC9F00D6492D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D19C9B2959FC9F00D6492D /* LaunchScreen.storyboard */; };
+		50D19CA5295A2E9F00D6492D /* HomeTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50D19CA4295A2E9F00D6492D /* HomeTableViewHeader.xib */; };
+		50D19CA7295A318E00D6492D /* HomeTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D19CA6295A318E00D6492D /* HomeTableViewHeader.swift */; };
+		50D3F896296F21EC00BF704D /* DetalheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D3F894296F21EC00BF704D /* DetalheViewController.swift */; };
+		50D3F897296F21EC00BF704D /* DetalheViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50D3F895296F21EC00BF704D /* DetalheViewController.xib */; };
+		50DB38F429A94CC5008FD5B8 /* PickerViewParcela.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DB38F329A94CC5008FD5B8 /* PickerViewParcela.swift */; };
+		50E74EFA296627BC0003212E /* ViagemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E74EF8296627BC0003212E /* ViagemTableViewCell.swift */; };
+		50E74EFB296627BC0003212E /* ViagemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50E74EF9296627BC0003212E /* ViagemTableViewCell.xib */; };
+		50E74EFE296632A90003212E /* server-response.json in Resources */ = {isa = PBXBuildFile; fileRef = 50E74EFD296632A90003212E /* server-response.json */; };
+		50E74F00296632D90003212E /* DecodableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E74EFF296632D90003212E /* DecodableData.swift */; };
+		50E74F02296632E90003212E /* TiposDeViagens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E74F01296632E90003212E /* TiposDeViagens.swift */; };
+		50E74F04296632F90003212E /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E74F03296632F90003212E /* Viagem.swift */; };
+		50E74F07296633260003212E /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E74F06296633260003212E /* UIView+Extension.swift */; };
+		50E74F09296633F70003212E /* ViagemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E74F08296633F70003212E /* ViagemViewModel.swift */; };
+		50E74F0B296638420003212E /* ViagemDestaqueViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E74F0A296638420003212E /* ViagemDestaqueViewModel.swift */; };
+		F2AD2B2C2F27B3A87EBADA83 /* Pods_MarocaViagens.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DFF94AA92E9D17F36E907A /* Pods_MarocaViagens.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47DFF94AA92E9D17F36E907A /* Pods_MarocaViagens.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarocaViagens.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5068F49929677B0800E195DA /* OfertaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfertaTableViewCell.swift; sourceTree = "<group>"; };
+		5068F49A29677B0800E195DA /* OfertaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OfertaTableViewCell.xib; sourceTree = "<group>"; };
+		5068F49D29677CEC00E195DA /* ViagemOfertaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemOfertaViewModel.swift; sourceTree = "<group>"; };
+		50972027299C1A1B008C704C /* Localizacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizacao.swift; sourceTree = "<group>"; };
+		50972029299C1CAC008C704C /* LocalizacaoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizacaoAPI.swift; sourceTree = "<group>"; };
+		50AA2EE8298BEE0400DA3060 /* PagamentoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagamentoViewController.swift; sourceTree = "<group>"; };
+		50AA2EE9298BEE0400DA3060 /* PagamentoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PagamentoViewController.xib; sourceTree = "<group>"; };
+		50AA2EF0298BF02E00DA3060 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		50AA2EF1298BF02E00DA3060 /* CadastroViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CadastroViewController.xib; sourceTree = "<group>"; };
+		50BE740B298011FC006ED542 /* Validador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validador.swift; sourceTree = "<group>"; };
+		50C1F6CA297876F800609C86 /* ConfirmacaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmacaoViewController.swift; sourceTree = "<group>"; };
+		50C1F6CB297876F800609C86 /* ConfirmacaoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfirmacaoViewController.xib; sourceTree = "<group>"; };
+		50CBD64D29A7AAD9003FD117 /* ValidadorCompra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidadorCompra.swift; sourceTree = "<group>"; };
+		50CBD65029A7C22C003FD117 /* PickerViewMes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewMes.swift; sourceTree = "<group>"; };
+		50CBD65229A7F820003FD117 /* PickerViewAno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewAno.swift; sourceTree = "<group>"; };
+		50D19C8D2959FC9E00D6492D /* MarocaViagens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarocaViagens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D19C902959FC9E00D6492D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50D19C922959FC9E00D6492D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		50D19C942959FC9E00D6492D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50D19C972959FC9E00D6492D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50D19C992959FC9F00D6492D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50D19C9C2959FC9F00D6492D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50D19C9E2959FC9F00D6492D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50D19CA4295A2E9F00D6492D /* HomeTableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewHeader.xib; sourceTree = "<group>"; };
+		50D19CA6295A318E00D6492D /* HomeTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewHeader.swift; sourceTree = "<group>"; };
+		50D3F894296F21EC00BF704D /* DetalheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheViewController.swift; sourceTree = "<group>"; };
+		50D3F895296F21EC00BF704D /* DetalheViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetalheViewController.xib; sourceTree = "<group>"; };
+		50DB38F329A94CC5008FD5B8 /* PickerViewParcela.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewParcela.swift; sourceTree = "<group>"; };
+		50E74EF8296627BC0003212E /* ViagemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemTableViewCell.swift; sourceTree = "<group>"; };
+		50E74EF9296627BC0003212E /* ViagemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViagemTableViewCell.xib; sourceTree = "<group>"; };
+		50E74EFD296632A90003212E /* server-response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "server-response.json"; path = "../../../../../../Downloads/Arquivos Swift/arquivos/server-response.json"; sourceTree = "<group>"; };
+		50E74EFF296632D90003212E /* DecodableData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DecodableData.swift; path = "../../../../../../Downloads/Arquivos Swift/arquivos/DecodableData.swift"; sourceTree = "<group>"; };
+		50E74F01296632E90003212E /* TiposDeViagens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TiposDeViagens.swift; path = "../../../../../../Downloads/Arquivos Swift/arquivos/TiposDeViagens.swift"; sourceTree = "<group>"; };
+		50E74F03296632F90003212E /* Viagem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Viagem.swift; path = "../../../../../../Downloads/Arquivos Swift/arquivos/Viagem.swift"; sourceTree = "<group>"; };
+		50E74F06296633260003212E /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "../../../../../../Downloads/Arquivos Swift/arquivos/UIView+Extension.swift"; sourceTree = "<group>"; };
+		50E74F08296633F70003212E /* ViagemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemViewModel.swift; sourceTree = "<group>"; };
+		50E74F0A296638420003212E /* ViagemDestaqueViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemDestaqueViewModel.swift; sourceTree = "<group>"; };
+		7ABA84A55CAAC07E8D7885BA /* Pods-MarocaViagens.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarocaViagens.release.xcconfig"; path = "Target Support Files/Pods-MarocaViagens/Pods-MarocaViagens.release.xcconfig"; sourceTree = "<group>"; };
+		EBCCF4CC60DA99A347C469CE /* Pods-MarocaViagens.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarocaViagens.debug.xcconfig"; path = "Target Support Files/Pods-MarocaViagens/Pods-MarocaViagens.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50D19C8A2959FC9E00D6492D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AD2B2C2F27B3A87EBADA83 /* Pods_MarocaViagens.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5068F49729677ABF00E195DA /* Destaque */ = {
+			isa = PBXGroup;
+			children = (
+				50E74EF8296627BC0003212E /* ViagemTableViewCell.swift */,
+				50E74EF9296627BC0003212E /* ViagemTableViewCell.xib */,
+			);
+			path = Destaque;
+			sourceTree = "<group>";
+		};
+		5068F49829677ADA00E195DA /* Oferta */ = {
+			isa = PBXGroup;
+			children = (
+				5068F49929677B0800E195DA /* OfertaTableViewCell.swift */,
+				5068F49A29677B0800E195DA /* OfertaTableViewCell.xib */,
+			);
+			path = Oferta;
+			sourceTree = "<group>";
+		};
+		50AA2EE6298BED9C00DA3060 /* CadastroViewController */ = {
+			isa = PBXGroup;
+			children = (
+				50AA2EF0298BF02E00DA3060 /* CadastroViewController.swift */,
+				50AA2EF1298BF02E00DA3060 /* CadastroViewController.xib */,
+			);
+			path = CadastroViewController;
+			sourceTree = "<group>";
+		};
+		50AA2EE7298BEDB100DA3060 /* PagamentoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				50AA2EE8298BEE0400DA3060 /* PagamentoViewController.swift */,
+				50AA2EE9298BEE0400DA3060 /* PagamentoViewController.xib */,
+			);
+			path = PagamentoViewController;
+			sourceTree = "<group>";
+		};
+		50BE740D29802686006ED542 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				50D19C9B2959FC9F00D6492D /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		50C1F6C52978769500609C86 /* ConfirmacaoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				50C1F6CA297876F800609C86 /* ConfirmacaoViewController.swift */,
+				50C1F6CB297876F800609C86 /* ConfirmacaoViewController.xib */,
+			);
+			path = ConfirmacaoViewController;
+			sourceTree = "<group>";
+		};
+		50CBD64F29A7C20E003FD117 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				50CBD65029A7C22C003FD117 /* PickerViewMes.swift */,
+				50CBD65229A7F820003FD117 /* PickerViewAno.swift */,
+				50DB38F329A94CC5008FD5B8 /* PickerViewParcela.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		50D19C842959FC9E00D6492D = {
+			isa = PBXGroup;
+			children = (
+				50D19C8F2959FC9E00D6492D /* MarocaViagens */,
+				50D19C8E2959FC9E00D6492D /* Products */,
+				9A1175167202DDDD446980B8 /* Pods */,
+				A9C92BB4E955A99DAFBF5912 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50D19C8E2959FC9E00D6492D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50D19C8D2959FC9E00D6492D /* MarocaViagens.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50D19C8F2959FC9E00D6492D /* MarocaViagens */ = {
+			isa = PBXGroup;
+			children = (
+				50E74EF42966116C0003212E /* View */,
+				50E74EF2296611360003212E /* AppDelegate */,
+				50E74EF3296611500003212E /* Model */,
+				50E74EF6296611C00003212E /* ViewModel */,
+				50E74F052966330E0003212E /* Extensions */,
+				50D19C992959FC9F00D6492D /* Assets.xcassets */,
+				50E74EFC296632800003212E /* Mock */,
+				50D19C9E2959FC9F00D6492D /* Info.plist */,
+			);
+			path = MarocaViagens;
+			sourceTree = "<group>";
+		};
+		50D3F893296F21BA00BF704D /* DetalheViewController */ = {
+			isa = PBXGroup;
+			children = (
+				50D3F894296F21EC00BF704D /* DetalheViewController.swift */,
+				50D3F895296F21EC00BF704D /* DetalheViewController.xib */,
+			);
+			path = DetalheViewController;
+			sourceTree = "<group>";
+		};
+		50E74EF2296611360003212E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				50D19C902959FC9E00D6492D /* AppDelegate.swift */,
+				50D19C922959FC9E00D6492D /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		50E74EF3296611500003212E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				50CBD64F29A7C20E003FD117 /* Components */,
+				50E74F03296632F90003212E /* Viagem.swift */,
+				50E74EFF296632D90003212E /* DecodableData.swift */,
+				50E74F01296632E90003212E /* TiposDeViagens.swift */,
+				50BE740B298011FC006ED542 /* Validador.swift */,
+				50CBD64D29A7AAD9003FD117 /* ValidadorCompra.swift */,
+				50972027299C1A1B008C704C /* Localizacao.swift */,
+				50972029299C1CAC008C704C /* LocalizacaoAPI.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		50E74EF42966116C0003212E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				50D19C942959FC9E00D6492D /* ViewController.swift */,
+				50D19C962959FC9E00D6492D /* Main.storyboard */,
+				50AA2EE7298BEDB100DA3060 /* PagamentoViewController */,
+				50AA2EE6298BED9C00DA3060 /* CadastroViewController */,
+				50BE740D29802686006ED542 /* LaunchScreen */,
+				50C1F6C52978769500609C86 /* ConfirmacaoViewController */,
+				50D3F893296F21BA00BF704D /* DetalheViewController */,
+				50E74EF5296611920003212E /* Header */,
+				50E74EF7296627760003212E /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		50E74EF5296611920003212E /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				50D19CA4295A2E9F00D6492D /* HomeTableViewHeader.xib */,
+				50D19CA6295A318E00D6492D /* HomeTableViewHeader.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		50E74EF6296611C00003212E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				50E74F08296633F70003212E /* ViagemViewModel.swift */,
+				50E74F0A296638420003212E /* ViagemDestaqueViewModel.swift */,
+				5068F49D29677CEC00E195DA /* ViagemOfertaViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		50E74EF7296627760003212E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5068F49829677ADA00E195DA /* Oferta */,
+				5068F49729677ABF00E195DA /* Destaque */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		50E74EFC296632800003212E /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				50E74EFD296632A90003212E /* server-response.json */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		50E74F052966330E0003212E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				50E74F06296633260003212E /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9A1175167202DDDD446980B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBCCF4CC60DA99A347C469CE /* Pods-MarocaViagens.debug.xcconfig */,
+				7ABA84A55CAAC07E8D7885BA /* Pods-MarocaViagens.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A9C92BB4E955A99DAFBF5912 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47DFF94AA92E9D17F36E907A /* Pods_MarocaViagens.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50D19C8C2959FC9E00D6492D /* MarocaViagens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D19CA12959FC9F00D6492D /* Build configuration list for PBXNativeTarget "MarocaViagens" */;
+			buildPhases = (
+				665F0159F0E85DBE9AC6F630 /* [CP] Check Pods Manifest.lock */,
+				50D19C892959FC9E00D6492D /* Sources */,
+				50D19C8A2959FC9E00D6492D /* Frameworks */,
+				50D19C8B2959FC9E00D6492D /* Resources */,
+				A659F3DA18204ADCBCD7705C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarocaViagens;
+			productName = MarocaViagens;
+			productReference = 50D19C8D2959FC9E00D6492D /* MarocaViagens.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50D19C852959FC9E00D6492D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					50D19C8C2959FC9E00D6492D = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 50D19C882959FC9E00D6492D /* Build configuration list for PBXProject "MarocaViagens" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50D19C842959FC9E00D6492D;
+			productRefGroup = 50D19C8E2959FC9E00D6492D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50D19C8C2959FC9E00D6492D /* MarocaViagens */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50D19C8B2959FC9E00D6492D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D3F897296F21EC00BF704D /* DetalheViewController.xib in Resources */,
+				50D19C9D2959FC9F00D6492D /* LaunchScreen.storyboard in Resources */,
+				50E74EFE296632A90003212E /* server-response.json in Resources */,
+				50D19CA5295A2E9F00D6492D /* HomeTableViewHeader.xib in Resources */,
+				50C1F6CD297876F800609C86 /* ConfirmacaoViewController.xib in Resources */,
+				50AA2EEB298BEE0400DA3060 /* PagamentoViewController.xib in Resources */,
+				50D19C9A2959FC9F00D6492D /* Assets.xcassets in Resources */,
+				50AA2EF3298BF02E00DA3060 /* CadastroViewController.xib in Resources */,
+				50D19C982959FC9E00D6492D /* Main.storyboard in Resources */,
+				50E74EFB296627BC0003212E /* ViagemTableViewCell.xib in Resources */,
+				5068F49C29677B0800E195DA /* OfertaTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		665F0159F0E85DBE9AC6F630 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarocaViagens-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A659F3DA18204ADCBCD7705C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarocaViagens/Pods-MarocaViagens-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarocaViagens/Pods-MarocaViagens-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MarocaViagens/Pods-MarocaViagens-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50D19C892959FC9E00D6492D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50CBD64E29A7AAD9003FD117 /* ValidadorCompra.swift in Sources */,
+				50E74F04296632F90003212E /* Viagem.swift in Sources */,
+				50AA2EF2298BF02E00DA3060 /* CadastroViewController.swift in Sources */,
+				50DB38F429A94CC5008FD5B8 /* PickerViewParcela.swift in Sources */,
+				50D19C952959FC9E00D6492D /* ViewController.swift in Sources */,
+				5097202A299C1CAC008C704C /* LocalizacaoAPI.swift in Sources */,
+				50E74EFA296627BC0003212E /* ViagemTableViewCell.swift in Sources */,
+				50E74F07296633260003212E /* UIView+Extension.swift in Sources */,
+				50BE740C298011FC006ED542 /* Validador.swift in Sources */,
+				5068F49E29677CEC00E195DA /* ViagemOfertaViewModel.swift in Sources */,
+				5068F49B29677B0800E195DA /* OfertaTableViewCell.swift in Sources */,
+				50E74F02296632E90003212E /* TiposDeViagens.swift in Sources */,
+				50D19CA7295A318E00D6492D /* HomeTableViewHeader.swift in Sources */,
+				50972028299C1A1B008C704C /* Localizacao.swift in Sources */,
+				50E74F00296632D90003212E /* DecodableData.swift in Sources */,
+				50AA2EEA298BEE0400DA3060 /* PagamentoViewController.swift in Sources */,
+				50D19C912959FC9E00D6492D /* AppDelegate.swift in Sources */,
+				50CBD65329A7F820003FD117 /* PickerViewAno.swift in Sources */,
+				50CBD65129A7C22C003FD117 /* PickerViewMes.swift in Sources */,
+				50C1F6CC297876F800609C86 /* ConfirmacaoViewController.swift in Sources */,
+				50D19C932959FC9E00D6492D /* SceneDelegate.swift in Sources */,
+				50E74F09296633F70003212E /* ViagemViewModel.swift in Sources */,
+				50D3F896296F21EC00BF704D /* DetalheViewController.swift in Sources */,
+				50E74F0B296638420003212E /* ViagemDestaqueViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50D19C962959FC9E00D6492D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50D19C972959FC9E00D6492D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50D19C9B2959FC9F00D6492D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50D19C9C2959FC9F00D6492D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50D19C9F2959FC9F00D6492D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50D19CA02959FC9F00D6492D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50D19CA22959FC9F00D6492D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBCCF4CC60DA99A347C469CE /* Pods-MarocaViagens.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VH7L3699C6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarocaViagens/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.future.MarocaViagens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50D19CA32959FC9F00D6492D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ABA84A55CAAC07E8D7885BA /* Pods-MarocaViagens.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VH7L3699C6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarocaViagens/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.future.MarocaViagens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50D19C882959FC9E00D6492D /* Build configuration list for PBXProject "MarocaViagens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D19C9F2959FC9F00D6492D /* Debug */,
+				50D19CA02959FC9F00D6492D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50D19CA12959FC9F00D6492D /* Build configuration list for PBXNativeTarget "MarocaViagens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D19CA22959FC9F00D6492D /* Debug */,
+				50D19CA32959FC9F00D6492D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50D19C852959FC9E00D6492D /* Project object */;
+}

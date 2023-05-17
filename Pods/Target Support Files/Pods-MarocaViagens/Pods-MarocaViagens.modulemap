@@ -1,0 +1,6 @@
+framework module Pods_MarocaViagens {
+  umbrella header "Pods-MarocaViagens-umbrella.h"
+
+  export *
+  module * { export * }
+}

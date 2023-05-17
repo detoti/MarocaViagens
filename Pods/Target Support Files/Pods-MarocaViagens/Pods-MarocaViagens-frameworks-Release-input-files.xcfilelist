@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-MarocaViagens/Pods-MarocaViagens-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/CPF-CNPJ-Validator/CPF_CNPJ_Validator.framework
+${BUILT_PRODUCTS_DIR}/CreditCardValidator/CreditCardValidator.framework
